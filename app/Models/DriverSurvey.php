@@ -14,7 +14,7 @@ use Illuminate\Database\Eloquent\Model;
  * @attr $email string  邮箱
  * @attr $game string   游戏
  * @attr $suggest string 建议
- * @attr $type string 型号
+ * @attr $types string 型号
  * @attr $facebook string facebook
  * @attr $created_at int 创建时间
  */

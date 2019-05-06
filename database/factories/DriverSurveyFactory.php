@@ -14,7 +14,7 @@ $factory->define(App\Models\DriverSurvey::class, function (Faker $faker) {
          'email'     => $faker->email,
          'game'      => $faker->word,
 	 'suggest'   => $faker->sentence,
-	 'type'      => 'G' . mt_rand(1,20),
+	 'types'      => 'G' . mt_rand(1,20),
 	 'facebook'  => $faker->word,
          'created_at' => strtotime($faker->dateTimeBetween('2019-01-01', 'now')->format('Y-m-d H:i'))
     ];
